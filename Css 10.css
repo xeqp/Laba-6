@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(232, 137, 232);
+    overflow-x: hidden;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+#karabl {
+    position: absolute;
+}
+
+#machta {
+    background-color: blueviolet;
+    width: 150px;       
+    height: 15px;       
+    position: absolute;
+    left: 110px;    
+    top: 250px;       
+}
+
+#lparus {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    border: 60px solid transparent;
+
+    border-bottom: 0px solid white;
+}
+
+#rparus {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 245px;
+    top: 100px;
+    border: 55px solid transparent;
+
+    border-bottom: 0px solid white;
+}
